@@ -18,8 +18,9 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.secondactivity);
         ImageView mImageView = (ImageView) findViewById(R.id.image);
-        byte[] byteArray = getIntent().getByteArrayExtra("image");
-        Bitmap imageBitmap = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.length);
+      //  byte[] byteArray = getIntent().getByteAExtra("image");
+       // Bitmap imageBitmap = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.length);
+        Bitmap imageBitmap = getIntent().getParcelableExtra("Bitmap");
         mImageView.setImageBitmap(imageBitmap);
 
         Button dkeep = (Button) findViewById(R.id.button2);

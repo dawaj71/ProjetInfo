@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
-            ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            imageBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-            byte[] byteArray = stream.toByteArray();
+          //  ByteArrayOutputStream stream = new ByteArrayOutputStream();
+          //  imageBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+          //  byte[] byteArray = stream.toByteArray();
             Intent in1 = new Intent(this, SecondActivity.class);
-            in1.putExtra("image",byteArray);
+            in1.putExtra("Bitmap",imageBitmap);
             startActivity(in1);
         }
     }
