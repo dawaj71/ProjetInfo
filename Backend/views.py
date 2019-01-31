@@ -8,5 +8,7 @@ from django.views.decorators.http import require_POST
 @csrf_exempt
 @require_POST
 def reception_image(request):
-    #request.POST.get()
-    return JsonResponse({"Success":True})
+    request.POST.get()
+    emplacement_image = "local"
+    return JsonResponse({"Success":True},{"Location":emplacement_image})
+
