@@ -36,12 +36,9 @@ class ImageSearch(APIView) :
 
 class ImageDetail(APIView) :
     def get(self, request, pk, format=None):
-        Image = self.get_object(pk)
-        serializer = Serializer(Image)
-        return Response(serializer.data)
-
-    def get_object(self, pk):
         try:
-            return Image.objects.get(pk=pk)
+            image = Image.objects.get(pk=pk)
+            serializer = Serializer(image)
+            return Response(serializer.data)
         except Image.DoesnotExist:
-            raise Http404
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
