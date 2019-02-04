@@ -10,15 +10,16 @@ from rest_framework.response import Response
 from rest_framework import status
 import logging
 import base64
+from Backend.models import Image
 
 logger = logging.getLogger(__name__)
 
 class ImageSearch(APIView) :
     def get(self, request, format=None):
-        #todos = Todo.objects.all()
         logger.error(request)
-        #Récuperer le résultat de l'algo CNN
-        serializer = Serializer(data=request.data, many=True)
+        #Récuperer le résultat de l'algo CNNs
+        image = Image.objects.all()
+        serializer = Serializer(image, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def post(self, request, format=None):
@@ -33,10 +34,14 @@ class ImageSearch(APIView) :
             return response
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    @csrf_exempt
-    @require_POST
-    def reception_image(request):
-        #request.POST.get()
-        emplacement_image = "local"
-        return JsonResponse({"Success":True},{"Location":emplacement_image})
+class ImageDetail(APIView) :
+    def get(self, request, pk, format=None):
+        Image = self.get_object(pk)
+        serializer = Serializer(Image)
+        return Response(serializer.data)
 
+    def get_object(self, pk):
+        try:
+            return Image.objects.get(pk=pk)
+        except Image.DoesnotExist:
+            raise Http404
