@@ -1,5 +1,5 @@
 ## ProjetInfo
-### Projet Info sur le traitement d'une image pour repérer les logos
+### Projet Info sur le traitement d'une image pour repérer lesiq logos
 
 absl-py==0.6.1
 astor==0.7.1
