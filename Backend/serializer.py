@@ -7,4 +7,5 @@ class Serializer(serializers.ModelSerializer):
     class Meta:
         model = Image
         #fields = ('id', 'description', 'deadline', 'done', 'priority', 'tags')
-        fields = ('id','name','img64')
+
+        fields = ('id', 'name', 'img64')
