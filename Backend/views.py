@@ -10,9 +10,10 @@ from rest_framework.response import Response
 from rest_framework import status
 
 class ImageSearch(APIView) :
-    def get(self):
-        print("OK")
-        return 1
+    def get(self, request, format=None):
+        todos = Todo.objects.all()
+        serializer = Serializer(todos, many=True)
+        return Response(serializer.data)
 
     def post(self, request, format=None):
         serializer = Serializer(data=request.data)
