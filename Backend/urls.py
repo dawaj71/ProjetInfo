@@ -7,5 +7,5 @@ from Backend import views
 
 urlpatterns = [
     #path('img_searches', views.reception_image),
-    path('img_searches', views.ImageSearch.as_view()),
+    path('img_searches/', views.ImageSearch.as_view()),
 ]
