@@ -11,6 +11,8 @@ from rest_framework import status
 import logging
 import base64
 from Backend.models import Image
+from cnn.query_online import analyse_image
+from cnn.index import index
 
 logger = logging.getLogger(__name__)
 
@@ -25,8 +27,8 @@ class ImageSearch(APIView) :
     def post(self, request, format=None):
         serializer = Serializer(data=request.data)
         if serializer.is_valid():
-            serializer.save()
-            image = base64.standard_b64decode(request.data['img64'])
+            image = base64.b64decode(request.data['img64'])#.replace("\n",'')
+            analyse_image(image)
             #logger.error(image)
             #Il faudrait lancer l'algo de CNN
             response = Response(serializer.data, status=status.HTTP_201_CREATED)
