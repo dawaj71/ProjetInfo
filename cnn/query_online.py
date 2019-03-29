@@ -12,6 +12,7 @@ import h5py
 from cnn.extract_cnn_vgg16_keras import VGGNet
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+from Backend.models import Result
 import argparse
 import os
 import io
@@ -61,17 +62,13 @@ def analyse_image(image):
     scores = np.dot(queryVec, feats.T)
     rank_ID = np.argsort(scores)[::-1]
     rank_score = scores[rank_ID]
-    # print rank_ID
-    # print rank_score
+    #print(rank_score)
 
 
     # number of top retrieved images to show
     maxres = 3
-    imlist = [imgNames[index] for i,index in enumerate(rank_ID[0:maxres])]
-    print("top %d images in order are: " %maxres, imlist)
+    imlist = [imgNames[index] for i, index in enumerate(rank_ID[0:maxres])]
 
-
-    # show top #maxres retrieved result one by one
     for i, im in enumerate(imlist):
         image = mpimg.imread('./dataset-retr/train'+"/"+im.decode('utf-8'))
         plt.subplot(2, 3, i+4)
@@ -79,3 +76,26 @@ def analyse_image(image):
         plt.title("search output %d" % (i + 1))
         plt.axis('off')
     plt.show()
+
+    im = imlist[0]
+    im0 = im.decode('utf-8')
+    score0 = sorted(scores, reverse=True)[0]
+
+    ima = imlist[1]
+    im1 = ima.decode('utf-8')
+    score1 = sorted(scores, reverse=True)[1]
+
+    imb = imlist[2]
+    im2 = imb.decode('utf-8')
+    score2 = sorted(scores, reverse=True)[2]
+
+    list0 = [im0, score0]
+    list1 = [im1, score1]
+    list2 = [im2, score2]
+
+    firstimage = str(list0)
+    secondimage = str(list1)
+    thirdimage = str(list2)
+
+
+    return (im0, score0, im1, score1, im2, score2)

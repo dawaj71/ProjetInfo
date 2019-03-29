@@ -50,43 +50,43 @@ def get_imlist(path):
 '''
  Returns a list of filenames for all jpg images in a directory. 
 '''
-def index():
-    def get_imlist(path):
-        return [os.path.join(path,f) for f in os.listdir(path) if f.endswith('.jpg')]
 
-    if __name__ == "__main__":
+def get_imlist(path):
+    return [os.path.join(path,f) for f in os.listdir(path) if f.endswith('.jpg')]
 
-        #db = args["database"]
-        #db = img_paths = './database'
-        db = img_paths = 'dataset-retr/train'
-        img_list = get_imlist(db)
+if __name__ == "__main__":
 
-        print("--------------------------------------------------")
-        print("         feature extraction starts")
-        print("--------------------------------------------------")
+    #db = args["database"]
+    #db = img_paths = './database'
+    db = img_paths = 'dataset-retr/train'
+    img_list = get_imlist(db)
 
-        feats = []
-        names = []
+    print("--------------------------------------------------")
+    print("         feature extraction starts")
+    print("--------------------------------------------------")
 
-        model = VGGNet()
-        for i, img_path in enumerate(img_list):
-            norm_feat = model.extract_feat(img_path)
-            img_name = os.path.split(img_path)[1]
-            feats.append(norm_feat)
-            names.append(img_name)
-            print("extracting feature from image No. %d , %d images in total" %((i+1), len(img_list)))
+    feats = []
+    names = []
 
-        feats = np.array(feats)
-        names = np.string_(names)
-        # directory for storing extracted features
-        #output = args["index"]
-        output = 'featureCNN.h5'
+    model = VGGNet()
+    for i, img_path in enumerate(img_list):
+        norm_feat = model.extract_feat(img_path)
+        img_name = os.path.split(img_path)[1]
+        feats.append(norm_feat)
+        names.append(img_name)
+        print("extracting feature from image No. %d , %d images in total" %((i+1), len(img_list)))
 
-        print("--------------------------------------------------")
-        print("      writing feature extraction results ...")
-        print("--------------------------------------------------")
+    feats = np.array(feats)
+    names = np.string_(names)
+    # directory for storing extracted features
+    #output = args["index"]
+    output = 'featureCNN.h5'
 
-        h5f = h5py.File(output, 'w')
-        h5f.create_dataset('dataset_feat', data=feats)
-        h5f.create_dataset('dataset_name', data=names)
-        h5f.close()
+    print("--------------------------------------------------")
+    print("      writing feature extraction results ...")
+    print("--------------------------------------------------")
+
+    h5f = h5py.File(output, 'w')
+    h5f.create_dataset('dataset_feat', data=feats)
+    h5f.create_dataset('dataset_name', data=names)
+    h5f.close()

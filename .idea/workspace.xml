@@ -2,14 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a2b0c7-8238-4b69-a483-03ed19be71af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BackendProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BackendProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/adidas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/aigle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/ariel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/audi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/bentley.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/bmw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/bud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/caissedepargne.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/carrouf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/ecoplus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/evian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/grim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/hk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/hp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/jupiler.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/laposte.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/qtourism.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/ratp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/salomon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/samsung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/stella.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/bdd_logo/zara.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00053.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/dataset-retr/train/ukbench00055.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cnn/featureCNN.h5" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/featureCNN.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cnn/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cnn/query_online.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/query_online.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +97,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ProjetInfo$Run_Server.coverage" NAME="Run Server Coverage Results" MODIFIED="1549442793103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjetInfo$Run_Server.coverage" NAME="Run Server Coverage Results" MODIFIED="1553853912005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetInfo$query_online.coverage" NAME="query_online Coverage Results" MODIFIED="1549377362809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
-    <SUITE FILE_PATH="coverage/ProjetInfo$index.coverage" NAME="index Coverage Results" MODIFIED="1549360304661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/ProjetInfo$index.coverage" NAME="index Coverage Results" MODIFIED="1553679603939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Backend/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+            <state relative-caret-position="504">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -40,19 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/rest_framework/serializers.py">
+        <entry file="file://$PROJECT_DIR$/cnn/extract_cnn_vgg16_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="238" selection-start-line="238" selection-end-line="238" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/rest_framework/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="212" selection-start-line="212" selection-end-line="212" />
+            <state relative-caret-position="391">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -60,38 +130,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cnn/query_online.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="229">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
-                <element signature="e#87#105#0" expanded="true" />
+                <element signature="e#71#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackendProject/settings.py">
+        <entry file="file://$PROJECT_DIR$/BackendProject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cnn/extract_cnn_vgg16_keras.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -99,8 +151,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Backend/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="6" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Backend/serializer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -109,18 +170,18 @@
         <entry file="file://$PROJECT_DIR$/Backend/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BackendProject/urls.py">
+        <entry file="file://$PROJECT_DIR$/cnn/query_online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="-91">
+              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding>
-                <element signature="e#638#670#0" expanded="true" />
+                <element signature="e#87#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,6 +196,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ukbench00038.jpg</find>
+      <find>b</find>
+      <find>JsonResponse</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -145,10 +213,11 @@
         <option value="$PROJECT_DIR$/Backend/tests.py" />
         <option value="$PROJECT_DIR$/Backend/migrations/serializer.py" />
         <option value="$PROJECT_DIR$/BackendProject/urls.py" />
-        <option value="$PROJECT_DIR$/Backend/models.py" />
-        <option value="$PROJECT_DIR$/Backend/serializer.py" />
-        <option value="$PROJECT_DIR$/Backend/urls.py" />
         <option value="$PROJECT_DIR$/cnn/index.py" />
+        <option value="$PROJECT_DIR$/cnn/extract_cnn_vgg16_keras.py" />
+        <option value="$PROJECT_DIR$/Backend/serializer.py" />
+        <option value="$PROJECT_DIR$/Backend/models.py" />
+        <option value="$PROJECT_DIR$/Backend/urls.py" />
         <option value="$PROJECT_DIR$/Backend/views.py" />
         <option value="$PROJECT_DIR$/cnn/query_online.py" />
       </list>
@@ -185,12 +254,13 @@
             <path>
               <item name="ProjetInfo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetInfo" type="462c0819:PsiDirectoryNode" />
-              <item name="BackendProject" type="462c0819:PsiDirectoryNode" />
+              <item name="cnn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjetInfo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetInfo" type="462c0819:PsiDirectoryNode" />
               <item name="cnn" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset-retr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,12 +275,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cnn" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jb\PycharmProjects\ProjetInfo\cnn\dataset-retr" />
+      <recent name="C:\Users\jb\PycharmProjects\ProjetInfo\cnn" />
+      <recent name="C:\Users\jb\PycharmProjects\ProjetInfo" />
       <recent name="$PROJECT_DIR$/Backend" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jb\PycharmProjects\ProjetInfo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cnn" />
       <recent name="$PROJECT_DIR$/Backend" />
     </key>
   </component>
@@ -262,8 +334,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/index.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="loaddata db.sqlite3" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -346,8 +418,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.query_online" />
         <item itemvalue="Python.index" />
+        <item itemvalue="Python.query_online" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +434,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548681188907</updated>
       <workItem from="1549353799481" duration="2883000" />
-      <workItem from="1549359841413" duration="11823000" />
+      <workItem from="1549359841413" duration="14606000" />
+      <workItem from="1549474811012" duration="35000" />
+      <workItem from="1549663961428" duration="3454000" />
+      <workItem from="1549709228529" duration="1915000" />
+      <workItem from="1553672226183" duration="4468000" />
+      <workItem from="1553677797510" duration="9733000" />
+      <workItem from="1553757593653" duration="13371000" />
+      <workItem from="1553848099211" duration="3948000" />
     </task>
     <task id="LOCAL-00001" summary="correction du CNN">
       <created>1549360983299</created>
@@ -371,35 +450,52 @@
       <option name="project" value="LOCAL" />
       <updated>1549360983300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="correction du CNN">
+      <created>1549444129256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549444129257</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15324000" />
+    <option name="totallyTimeSpent" value="55031000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.032502707" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924472" weight="0.32827735" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49773413" weight="0.29473683" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022659" weight="0.29473683" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5022659" weight="0.29469123" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49773413" weight="0.29469123" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.21002132" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.015991472" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -492,100 +588,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BackendProject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BackendProject/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackendProject/urls.py">
+    <entry file="file://$PROJECT_DIR$/cnn/test.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45067">
+          <caret line="2656" selection-start-line="2656" selection-end-line="2656" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/index.py">
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="6" />
+        <state relative-caret-position="2677">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/rest_framework/request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="385">
           <caret line="212" selection-start-line="212" selection-end-line="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackendProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/django/views/decorators/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackendProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Backend/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/rest_framework/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/extract_cnn_vgg16_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="391">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/test.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BackendProject/settings.py">
+    <entry file="file://$PROJECT_DIR$/cnn/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="229">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="e#71#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/query_online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="-91">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding>
             <element signature="e#87#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
